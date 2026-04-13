@@ -35,7 +35,7 @@ public class Bank {
 		System.out.println("Updated account data: \n" + user);
 
 		System.out.println();
-		System.out.println("Enter a withdraw value: ");
+		System.out.print("Enter a withdraw value: ");
 		user.withdraw(sc.nextDouble());
 		System.out.println("Updated account data: \n" + user);
 		
